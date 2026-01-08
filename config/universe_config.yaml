@@ -1,0 +1,67 @@
+# Universe configuration
+universe_symbols:
+  # Technology
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - META
+  - NVDA
+  - TSLA
+  - ADBE
+  
+  # Financials
+  - JPM
+  - BAC
+  - GS
+  - MS
+  
+  # Healthcare
+  - JNJ
+  - PFE
+  - UNH
+  - ABT
+  
+  # Consumer
+  - KO
+  - PEP
+  - PG
+  - WMT
+  
+  # Industrial
+  - BA
+  - CAT
+  - UPS
+  
+  # Energy
+  - XOM
+  - CVX
+  
+  # Communication
+  - VZ
+  - T
+  
+  # Materials
+  - DOW
+  
+  # Real Estate
+  - AMT
+  
+  # Utilities
+  - NEE
+
+benchmark_symbols:
+  primary: "^GSPC"  # S&P 500
+  secondary: "^NDX"  # NASDAQ 100
+
+sector_mapping:
+  technology: ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "TSLA", "ADBE"]
+  financials: ["JPM", "BAC", "GS", "MS"]
+  healthcare: ["JNJ", "PFE", "UNH", "ABT"]
+  consumer: ["KO", "PEP", "PG", "WMT"]
+  industrials: ["BA", "CAT", "UPS"]
+  energy: ["XOM", "CVX"]
+  communication: ["VZ", "T"]
+  materials: ["DOW"]
+  real_estate: ["AMT"]
+  utilities: ["NEE"]
